@@ -8,7 +8,14 @@ GIORNO 2
 - presa visione del codice di base fornito dal prof, così da comprendere la comunicazione tra index e result 
 codice:
 - partendo dal codice di base, si è provato a creare una nuova applicazione flask avente solo la pagina index e la lib dell’alphabot e la pagina dell’applicazione (il server)  dove viene gestito il movimento dell’alphabot tramite la seguente logica: 
-quando viene premuto il bottone presente sulla pagina html, viene inviato un valore al server, questo valore definirà se l’alphabot deve andare avanti, indietro… in ogni caso, ogni volta che viene premuto un bottone il coidce ti rimanda alla pagina index 
+quando viene premuto il bottone presente sulla pagina html, viene inviato un valore al server, questo valore definirà se l’alphabot deve andare avanti, indietro… in ogni caso, ogni volta che viene premuto un bottone il coidce ti rimanda alla pagina index
+
+
+
+PROBLEMI:
+1. sul mio computer non sono riuscita ad installare flask in quanto la versione 2.7 di python ha terminato la sua vita e non riuscivo ad installare flask sulla versione 3.6
+2. tutto il gruppo di lavoro ha avuto problemi a collegarsi al wifi di classe, per questo non si riusciva a collegarsi all’alphabot
+
 
 
 
