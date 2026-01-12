@@ -1,0 +1,11 @@
+GIORNO 1 
+- installazione flask sull’alphabot fatta collegati direttamente al server della scuola, con l’alphabot da una parte e il pc dall’altra. 
+screen codice
+- installazione flask sul pc
+codice: pip install flask
+
+GIORNO 2
+- presa visione del codice di base fornito dal prof, così da comprendere la comunicazione tra index e result 
+codice:
+- partendo dal codice di base, si è provato a creare una nuova applicazione flask avente solo la pagina index e la lib dell’alphabot e la pagina dell’applicazione (il server)  dove viene gestito il movimento dell’alphabot tramite la seguente logica: 
+quando viene premuto il bottone presente sulla pagina html, viene inviato un valore al server, questo valore definirà se l’alphabot deve andare avanti, indietro… in ogni caso, ogni volta che viene premuto un bottone 
