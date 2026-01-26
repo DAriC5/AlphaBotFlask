@@ -13,10 +13,16 @@ quando viene premuto il bottone presente sulla pagina html, viene inviato un val
 GIORNO 3:
 - presa visione del corso di sicurezza
 
+GIORNO 4:
+- cambio di alphabot e configurazione di quello nuovo 
+- tentativi di risoluzione problemi legati alla ssd
+
 PROBLEMI:
 1. sul mio computer non sono riuscita ad installare flask in quanto la versione 2.7 di python ha terminato la sua vita e non riuscivo ad installare flask sulla versione 3.6
 2. tutto il gruppo di lavoro ha avuto problemi a collegarsi al wifi di classe, per questo non si riusciva a collegarsi all’alphabot
-3.
+3. durante l'inizio della lezione è stata provata l'accensione dell'alphabot. nonostante diversi tentativi con le pile, il robot continuava a non accendersi. A un certo punto ha iniziato a fumare ed emettere un cattivo odore
+4. durante il tentavivo di connessione con l'alphabot nuovo, Winscp e putty negavano l'accesso. il problema era legato alla ssd 
+5. la ssd è rimasta incastrata all'interno del pc 
 
 
 
