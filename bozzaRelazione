@@ -17,12 +17,25 @@ GIORNO 4:
 - cambio di alphabot e configurazione di quello nuovo 
 - tentativi di risoluzione problemi legati alla ssd
 
+GIORNO 5:
+-i compiti sono stati divisi: 
+1. arianna ha fleshato una nuova ssd, l'ha configurata e ha successivamente configurato flask sull'alphabot
+2. alice ha testato il codice vecchio sull'alphabot di un compagno, ma sono stati riscontrati diversi errori, dopo la sistemazione siamo riuscite ad accedere alla pagina home, ma anche lì ci sono stati nuovi problemi
+-dopo aver risolto i problemi il codice ha funzionato e l'alphabot si è mosso
+-avvio iniziale per l'implementazione del codice ARIANNA DEVI SCRIVERE RIGUARDO A IMPLEMENTAZIONE LOGIN
+
 PROBLEMI:
 1. sul mio computer non sono riuscita ad installare flask in quanto la versione 2.7 di python ha terminato la sua vita e non riuscivo ad installare flask sulla versione 3.6
 2. tutto il gruppo di lavoro ha avuto problemi a collegarsi al wifi di classe, per questo non si riusciva a collegarsi all’alphabot
 3. durante l'inizio della lezione è stata provata l'accensione dell'alphabot. nonostante diversi tentativi con le pile, il robot continuava a non accendersi. A un certo punto ha iniziato a fumare ed emettere un cattivo odore
 4. durante il tentavivo di connessione con l'alphabot nuovo, Winscp e putty negavano l'accesso. il problema era legato alla ssd 
 5. la ssd è rimasta incastrata all'interno del pc 
+6. al tentativo di esecuzione del codice tramite putty, veniva segnalato gpio busy. questo era dovuto dal fatto che per due volte inizilizzavamo i gpio. Per questo motivo è stata modificate la parte di codice
+app.run(debug=True) in app.run(debug=False, use_reloader=False)
+7. al tentativo di esecuzione del codice tramite putty, il codice partiva ma quando si andava sul browser per connettersi all'host dava pagina non trovata. Per questo motivo al codice che si occupa del debug,
+ovvero app.run(debug=True) sono stati aggiunti l'indirizzo dell'host e il numero della porta app.run(host="0.0.0.0", port=5550, debug=False, use_reloader=False)
+8. dopo essere entrati nella pagina home, quando provavo a cliccare sui pulsanti veniva restituito l'errore 500. Abbiamo capito che il problema è stato che 
+Quando usavamo request.form.get(), questo già restituiva il valore, quindi non dovevo aggiungere .value alla fine
 
 
 
