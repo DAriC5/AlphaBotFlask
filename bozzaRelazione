@@ -22,7 +22,7 @@ GIORNO 5:
 1. arianna ha fleshato una nuova ssd, l'ha configurata e ha successivamente configurato flask sull'alphabot
 2. alice ha testato il codice vecchio sull'alphabot di un compagno, ma sono stati riscontrati diversi errori, dopo la sistemazione siamo riuscite ad accedere alla pagina home, ma anche lì ci sono stati nuovi problemi
 -dopo aver risolto i problemi il codice ha funzionato e l'alphabot si è mosso
--avvio iniziale per l'implementazione del codice ARIANNA DEVI SCRIVERE RIGUARDO A IMPLEMENTAZIONE LOGIN
+-avvio iniziale per l'implementazione del codice 
 
 GIORNO 6: 
 - implementazione login a livello di codice 
@@ -40,7 +40,7 @@ ovvero app.run(debug=True) sono stati aggiunti l'indirizzo dell'host e il numero
 8. dopo essere entrati nella pagina home, quando provavo a cliccare sui pulsanti veniva restituito l'errore 500. Abbiamo capito che il problema è stato che 
 Quando usavamo request.form.get(), questo già restituiva il valore, quindi non dovevo aggiungere .value alla fine
 9. flask login era stato installato nel venv, cosa che non faceva funzionare il codice. è stato necessario scaricarlo a livello globale 
-10. il terminale restituiva che esisteva già una PWM per quel canale, non facendo funionare il codice. per far funzionare il codice è stato rimosso la riga di codice: ARIANNA 
+10. il terminale restituiva che esisteva già una PWM per quel canale, non facendo funionare il codice. 
 
 
 
