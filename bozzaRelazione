@@ -27,6 +27,11 @@ GIORNO 5:
 GIORNO 6: 
 - implementazione login a livello di codice 
 
+GIORNO 7:
+- test del codice svillupato (codicePerGara) 
+- modifiche del codice precedente per evitare che la pagina si refreshi ogni volta che un pulsante viene premuto. Codice nuovo: codicePerGara_1
+- miglioramento della grafica della pagina Index. Codice nuovo: nuovoIndex 
+
 PROBLEMI:
 1. sul mio computer non sono riuscita ad installare flask in quanto la versione 2.7 di python ha terminato la sua vita e non riuscivo ad installare flask sulla versione 3.6
 2. tutto il gruppo di lavoro ha avuto problemi a collegarsi al wifi di classe, per questo non si riusciva a collegarsi all’alphabot
