@@ -34,6 +34,7 @@ GIORNO 7:
 
 GIORNO 8:
 - rimozione del controllo dei sensori per velocizzare il percorso ed evitare stop non voluti
+- variazione della grafica: da pulsantiera a joystick per migliorare le prestazioni di movimento e velocitá 
 
 PROBLEMI:
 1. sul mio computer non sono riuscita ad installare flask in quanto la versione 2.7 di python ha terminato la sua vita e non riuscivo ad installare flask sulla versione 3.6
@@ -49,6 +50,7 @@ ovvero app.run(debug=True) sono stati aggiunti l'indirizzo dell'host e il numero
 Quando usavamo request.form.get(), questo già restituiva il valore, quindi non dovevo aggiungere .value alla fine
 9. flask login era stato installato nel venv, cosa che non faceva funzionare il codice. è stato necessario scaricarlo a livello globale 
 10. il terminale restituiva che esisteva già una PWM per quel canale, non facendo funionare il codice. 
+11. con la nuova grafica (joystick) l'alphabot non va avanti, per questo motivo viene utilizzato al contario
 
 
 
